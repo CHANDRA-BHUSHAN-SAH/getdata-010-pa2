@@ -10,11 +10,11 @@
 	
 #### Note:
 
-*You should have dataset in a folder named "UCI HAR Dataset" in your current working directory
-*You can download the dataset from the following link and extract it your PWD
+*You should have dataset in a folder named "UCI HAR Dataset" in your current working directory*
+*You can download the dataset from the following link and extract it your PWD*
 	(https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-*Download the code file named "run_analysis.R" in your PWD
-*The RStudio should installed the packages named "plyr" and "reshape2"
+*Download the code file named "run_analysis.R" in your PWD*
+*The RStudio should installed the packages named "plyr" and "reshape2"*
 
 
 
