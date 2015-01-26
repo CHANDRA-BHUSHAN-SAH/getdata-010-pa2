@@ -26,7 +26,7 @@ tidy1 <- data[, c(1, 2, features_mean_stddiv$V1+2)]
 labels_activity <- read.table("UCI HAR Dataset/activity_labels.txt", stringsAsFactors=FALSE)
 
 ## (3.2) replacing labels in data with the label names
-tidy1$label <- labels[tidy1$label, 2]
+tidy1$label <- labels_activity[tidy1$label, 2]
 
 ## step 4: Appropriately labels the data set with descriptive variable names. 
 valid_col <- c("subject", "label", features_mean_stddiv$V2)
